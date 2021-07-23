@@ -1,0 +1,117 @@
+<style>
+  
+                                   
+		*{
+			padding:0;
+			margin:0;
+
+		}
+		h1{
+		align:center;
+		}
+		body{
+			
+			background-position:center;
+			background-size:cover;
+			background-image: url('newbg.jpeg');
+			/*background-color: rgb(31, 27, 27);*/
+			
+			background-size: cover;
+                                                             
+			
+			font-family:calibri;
+			}
+		.manu-bar{
+			background-color:rgb(15, 14, 14);
+			border-radius: 20px;			
+			text-align:center;
+			width: 100%;
+				
+				font-family: fantasy;
+			
+			
+			
+		}
+		.manu-bar ul
+		{
+			display:inline-flex;
+			list-style:inside;
+			color:rgb(212, 0, 255);
+			
+		}
+		.manu-bar ul li
+		{
+			
+			width:100px;
+			margin:10px;
+			padding:10px;
+		}
+		.manu-bar ul li a
+		{
+			text-decoration:none;
+			
+		}
+		.active,.manu-bar ul li:hover
+		{
+			background-color:rgb(75, 156, 180);
+			border-radius:  20px;
+		
+		}
+		.submenu1
+		{
+			display:none;
+		}
+		
+		.manu-bar ul li:hover .submenu1
+		{
+			display:block;
+			position:absolute;
+			background-color:whitesmoke;
+
+			margin-top:10px;
+			margin-left:10px;
+			}
+		.manu-bar ul li:hover .submenu1 ul
+		{
+			display:block;
+		}
+		.manu-bar ul li:hover .submenu1 ul li
+		{
+			width:50px;
+			padding:10px;
+			border-bottom:1px solid black;
+			background:transparent;
+			border: radius 20%;;
+			
+			text-align:left;
+		}
+		.manu-bar ul li:hover .submenu1 ul li a:hover
+		{
+			color:rgb(189, 18, 103);
+		}
+		
+			footer {
+				/*text-align: center;
+				align-content: center;
+				padding: 3px;
+				background-color: rgba(148, 23, 117, 0.767);
+				color: white;
+				
+				 position: sticky ;*/
+				 border-top: solid 1px;
+				 background: rgba(148, 23, 117, 0.767);
+				 width: 100%;
+				 height: 40px;
+				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+				font-size:medium;
+				
+				 padding-top: 10px;
+				 position: absolute;
+				 bottom: 0;
+				 left: 0;
+				 text-align: center;
+			  }
+		.hoverr:hover{
+			background-color: aqua;
+		}
+	</style>
